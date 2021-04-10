@@ -1,0 +1,14 @@
+__pycache__
+*.swp
+.*.swp
+*.pyc
+tmp
+*.egg-info
+.integrate-test.lsf
+.done.mrk
+*.log
+/.venv*
+/.cache
+*.out
+.ipynb_checkpoints
+*.html

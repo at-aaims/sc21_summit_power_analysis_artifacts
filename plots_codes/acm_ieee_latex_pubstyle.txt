@@ -1,0 +1,59 @@
+#
+# Matplotlib plotting style for ACM & IEEE pdflatex publications
+#
+# This version is a 2x scaled version to be able leverage the reasonable
+# defaults that comes with Seaborn
+#
+# All font sizes are 2x adjusted (i.e., 10 point -> 20 point) in the style file.
+# 20 point will translate into a 10 point text in the resulting artifact
+# Single width in a double column ACM & IEEE conference paper would translate into 8 inches
+# and double width will be 16 inches
+#
+
+# X & Y
+xtick.labelsize: 12
+ytick.labelsize: 12
+#xtick.color: 323034
+#ytick.color: 323034
+
+# Font
+font.size: 16
+mathtext.fontset: stix
+font.family: STIXGeneral
+
+# Legend
+legend.title_fontsize: 14
+legend.frameon: True
+legend.framealpha: 0.8
+legend.fontsize: 14
+legend.edgecolor: 0.9
+legend.borderpad: 0.2
+legend.columnspacing: 1.5
+legend.labelspacing:  0.4
+
+# Text
+text.usetex: False
+text.color: 323034
+
+# Axes
+axes.titlesize: 16
+axes.titlelocation: left
+axes.formatter.use_mathtext: True
+axes.autolimit_mode: round_numbers
+axes.labelsize: 16
+axes.labelpad: 3
+axes.formatter.limits: -4, 4
+axes.labelcolor: black
+axes.edgecolor: black
+axes.linewidth: 0.6
+axes.spines.right : False
+axes.spines.top : False
+axes.grid: False
+
+# Figure resolution and sizes
+# 3.14 inch width reflects the IEEE single column textwidth 506.285pt
+# This figsize is to match the fontsize points to actual LaTeX font sizes
+# Increased DPI for better investigation on web as it is indeed small
+# Default figsize is 8 inch x 6 inch
+figure.figsize: 8,6
+figure.dpi: 125

@@ -1,0 +1,10 @@
+[cache]
+    type = "hardlink,symlink"
+    shared = group
+    dir = /gpfs/alpine/stf218/proj-shared/data/dvc.cache/refinery218
+[core]
+    remote = master
+['remote "master"']
+    url = /gpfs/alpine/stf218/proj-shared/data/dvc.repo/refinery218
+['remote "datalake"']
+    url = /gpfs/alpine/stf218/proj-shared/data/lake

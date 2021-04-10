@@ -1,0 +1,19 @@
+# DTN requirements Accept whatever is in the environment
+
+# Basics
+click
+pytest
+dvc
+loguru
+pyyaml
+
+# Python and data
+elasticsearch
+numpy
+pandas
+python-snappy
+pyarrow
+
+# Dask minimal
+dask
+distributed

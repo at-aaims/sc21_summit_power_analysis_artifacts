@@ -1,0 +1,26 @@
+# Andes requirements: Accept whatever is in the environment
+
+# Basics
+click
+pytest
+dvc
+loguru
+pyyaml
+
+# Python and data
+elasticsearch
+numpy
+pandas
+python-snappy
+pyarrow
+nbconvert
+
+# Dask on HPC
+dask[complete]
+distributed
+mpi4py
+dask-mpi
+dask-jobqueue
+
+# Additional libraries
+darshan>=0.0.7
